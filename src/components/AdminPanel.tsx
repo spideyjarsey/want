@@ -2070,7 +2070,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({
 
                   <div>
                     <label className="block text-xs font-bold text-neutral-700 mb-1">
-                      Bestseller Section Heading
+                      All Jerseys Section Heading
                     </label>
                     <input
                       type="text"

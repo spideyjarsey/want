@@ -76,7 +76,7 @@ export const DEFAULT_SITE_SETTINGS: SiteSettings = {
   heroTimestamps: '3.23 / 3.22 / 3.03 / 2.04',
   heroBgImage: '',
   categoryHeading: 'Shop by Category',
-  bestsellerHeading: 'Bestsellers',
+  bestsellerHeading: 'All Jerseys',
   footerText: 'DIFFERENTIATE, DON’T COMPARE',
   footerQuote: 'Official Spidey Master Catalog',
   adminGmail: 'sahidul010122@gmail.com',

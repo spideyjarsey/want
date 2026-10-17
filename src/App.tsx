@@ -1397,12 +1397,12 @@ export default function App() {
               headingTitle={siteSettings.categoryHeading || 'Shop by Category'}
             />
 
-            {/* Bestsellers Section matching screenshot */}
+            {/* All Jerseys Section */}
             <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-4 sm:pt-6">
               <div className="flex items-baseline justify-between mb-4">
                 <h2 className="text-xl sm:text-2xl font-bold text-neutral-900 tracking-tight">
                   {selectedCategory === 'all' 
-                    ? (siteSettings.bestsellerHeading || 'Bestsellers') 
+                    ? (siteSettings.bestsellerHeading || 'All Jerseys') 
                     : `${categoryItems.find((c) => c.id === selectedCategory)?.name || selectedCategory} Collection`}
                 </h2>
                 {selectedCategory !== 'all' && (
